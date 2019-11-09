@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.container-cineBeam {
+  height: 100%;
+  width: 100%; }
+
+.container-header-cineBeam {
+  height: 100%;
+  width: 100%; }
+  .container-header-cineBeam .main-header-cineBeam {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    padding-top: 20px;
+    background-image: url("../img/bg-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+    .container-header-cineBeam .main-header-cineBeam .header-cineBeam {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-basis: 50%;
+      flex-basis: 50%;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      flex-direction: column;
+      height: 100%;
+      padding-top: 20px;
+      width: 100%; }
+      .container-header-cineBeam .main-header-cineBeam .header-cineBeam .header-cineBeam-title {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        padding-bottom: 50px; }
+        .container-header-cineBeam .main-header-cineBeam .header-cineBeam .header-cineBeam-title h1 {
+          font-family: 'Gotham Bold', sans-serif;
+          font-size: 60px;
+          color: white; }
+      .container-header-cineBeam .main-header-cineBeam .header-cineBeam .header-cineBeam-info {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+        align-items: flex-start;
+        -webkit-flex-basis: 10%;
+        flex-basis: 10%;
+        padding-bottom: 300px; }
+        .container-header-cineBeam .main-header-cineBeam .header-cineBeam .header-cineBeam-info h1 {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: flex;
+          background: linear-gradient(-55.43deg, #727476 0%, #fcfcfc 49%, #fff 68%, #fff 75%, #c8caca 89%, #9d9fa0 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          font-size: 150px;
+          padding-right: 25px; }
+        .container-header-cineBeam .main-header-cineBeam .header-cineBeam .header-cineBeam-info p {
+          font-family: 'Gotham Light', sans-serif;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-flex-basis: 10%;
+          flex-basis: 10%;
+          font-size: 30px;
+          line-height: 45px;
+          color: white;
+          padding-top: 28px; }
+      .container-header-cineBeam .main-header-cineBeam .header-cineBeam .header-cineBeam-button {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        padding-top: 400px;
+        padding-left: 200px;
+        padding-bottom: 50px; }
+        .container-header-cineBeam .main-header-cineBeam .header-cineBeam .header-cineBeam-button a {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+          text-decoration: none;
+          border: 1px solid #ffffff;
+          padding: 5px 15px 5px 15px; }
+          .container-header-cineBeam .main-header-cineBeam .header-cineBeam .header-cineBeam-button a .icon-btn {
+            width: 30px;
+            height: 30px;
+            fill: white;
+            padding-top: 5px; }
+          .container-header-cineBeam .main-header-cineBeam .header-cineBeam .header-cineBeam-button a p {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            font-size: 12px; }
+    .container-header-cineBeam .main-header-cineBeam .header-cineBeam-scroll {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-basis: 45%;
+      flex-basis: 45%;
+      width: 100%;
+      height: 80vh;
+      -webkit-box-pack: start;
+      -webkit-justify-content: flex-start;
+      justify-content: flex-start;
+      -webkit-box-align: end;
+      -webkit-align-items: flex-end;
+      align-items: flex-end;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      flex-direction: column; }
+      .container-header-cineBeam .main-header-cineBeam .header-cineBeam-scroll .scroll-cineBeam {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        justify-content: flex-start;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        height: 100%; }
+        .container-header-cineBeam .main-header-cineBeam .header-cineBeam-scroll .scroll-cineBeam .outer {
+          width: 1px;
+          height: 70%;
+          overflow: hidden; }
+          .container-header-cineBeam .main-header-cineBeam .header-cineBeam-scroll .scroll-cineBeam .outer .inner {
+            width: 100%;
+            height: 100%;
+            background: gray; }
+        .container-header-cineBeam .main-header-cineBeam .header-cineBeam-scroll .scroll-cineBeam .scroll-downs {
+          width: 43px;
+          height: 55px;
+          padding-top: 40px; }
+          .container-header-cineBeam .main-header-cineBeam .header-cineBeam-scroll .scroll-cineBeam .scroll-downs .mouse {
+            width: 3px;
+            padding: 10px 15px;
+            height: 35px;
+            border: 5px solid #fff;
+            -webkit-border-radius: 25px;
+            border-radius: 25px;
+            opacity: 0.75;
+            -webkit-box-sizing: content-box;
+            box-sizing: content-box; }
+          .container-header-cineBeam .main-header-cineBeam .header-cineBeam-scroll .scroll-cineBeam .scroll-downs .scroller {
+            width: 4px;
+            height: 10px;
+            -webkit-border-radius: 25%;
+            border-radius: 25%;
+            background-color: #fff;
+            -webkit-animation-name: scroll;
+            animation-name: scroll;
+            -webkit-animation-duration: 2.2s;
+            animation-duration: 2.2s;
+            -webkit-animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
+            animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite; }
+
+@-webkit-keyframes scroll {
+  0% {
+    opacity: 0; }
+  10% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1; }
+  100% {
+    -webkit-transform: translateY(15px);
+    transform: translateY(15px);
+    opacity: 0; } }
+
+@keyframes scroll {
+  0% {
+    opacity: 0; }
+  10% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1; }
+  100% {
+    -webkit-transform: translateY(15px);
+    transform: translateY(15px);
+    opacity: 0; } }
+        .container-header-cineBeam .main-header-cineBeam .header-cineBeam-scroll .scroll-cineBeam .icon-arrows {
+          width: 30px;
+          padding-top: 100px;
+          padding-left: 10px;
+          fill: #ffffff; }
+
+@font-face {
+  font-family: 'Gotham Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local("LG Smart"), local("LG Smart"), url("../fonts/Gotham-Light.otf") format("otf"), local("LG Smart"), url("../fonts/GothamLight.ttf") format("ttf"); }
+
+@font-face {
+  font-family: 'Gotham Bold';
+  font-style: normal;
+  font-weight: bold;
+  src: local("LG Smart"), local("LG Smart"), url("../fonts/Gotham-Bold.otf") format("otf"), local("LG Smart"), url("../fonts/GothamBold.ttf") format("ttf"); }
