@@ -42,13 +42,9 @@
         flex-basis: 10%;
         padding-bottom: 300px;
 
-        h1{
-          display: flex;
-          background: linear-gradient(-55.43deg, #727476 0%, #fcfcfc 49%, #fff 68%, #fff 75%, #c8caca 89%, #9d9fa0 100%);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-          font-size: 150px;
+        img{
           padding-right: 25px;
+          padding-top: 70px;
         }
         p{
           font-family: 'Gotham Light', sans-serif;
@@ -57,40 +53,9 @@
           font-size: 30px;
           line-height:45px;
           color: white;
-          padding-top: 28px;
+          padding-top: 60px;
         }
       }
-      .header-cineBeam-button{
-        display: flex;
-        justify-content: center;
-        padding-top: 400px;
-        padding-left: 200px;
-        padding-bottom:50px;
-        a{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          text-decoration: none;
-          border: 1px solid #ffffff;
-          padding: 5px 15px 5px 15px;
-          .icon-btn{
-            width: 30px;
-            height: 30px;
-            fill: white;
-            padding-top: 5px;
-
-          }
-          p{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            color: white;
-            font-size: 12px;
-          }
-        }
-      }
-
     }
     .header-cineBeam-scroll{
       display: flex;
@@ -157,6 +122,36 @@
     }
   }
 
+}
+.button{
+  display: flex;
+  justify-content: center;
+  padding-top: 400px;
+  padding-left: 200px;
+  padding-bottom:50px;
+  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    padding: 5px 15px 5px 15px;
+    .icon-btn{
+      width: 30px;
+      height: 30px;
+      fill: white;
+      padding-top: 5px;
+
+    }
+    p{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      font-size: 12px;
+    }
+  }
 }
 @font-face {
   font-family: 'Gotham Light';

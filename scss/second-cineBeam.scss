@@ -1,0 +1,55 @@
+.container-second-cineBeam{
+  width: 100%;
+  height: 100%;
+  .main-second-cineBeam{
+    background-image: url("../img/bg-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .number-second-cineBeam{
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      width: 90%;
+      padding-top: 400px;
+      padding-right:80px;
+
+      h1{
+        font-family: 'Gotham Bold', sans-serif;
+        display: flex;
+        background: linear-gradient(-55.43deg, #727476 0%, #fcfcfc 49%, #fff 68%, #fff 75%, #c8caca 89%, #9d9fa0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 150px;
+
+      }
+    }
+    .title-second-cineBeam{
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+      text-align: center;
+      padding-top: 650px;
+      padding-left: 300px;
+      h1{
+        font-family: 'Gotham Bold', sans-serif;
+        font-size: 34px;
+        line-height: 45px;
+        color: white;
+        span{
+          display: inline-block;
+          font-size: 80px;
+          padding-top: 20px;
+        }
+      }
+    }
+    .button-second-cineBeam{
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      padding-top: 500px;
+      padding-right: 78px;
+    }
+  }
+}
