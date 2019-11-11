@@ -6,80 +6,322 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background-image: url("../img/bg-5.png");
+    background-image: url("../img/bg-5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     .main-colorful-links{
       display: flex;
-      flex-wrap: wrap;
-      width:50%;
-      margin-left: auto;
-      margin-right: auto;
+      width: 100%;
       margin-top: -175px;
-      a{
+      .river{
+        display: none ;
+      }
+      .main-fourth-links{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        color: white;
-        width: 177px;
-        height: 177px;
-        p{
-          font-family: 'Gotham Bold', sans-serif;
-          font-size: 14px;
+        width:60%;
+        margin-left: auto;
+        margin-right: auto;
+        .main-fourth-firstRow{
+          display: flex;
         }
-        .icon-antenna{
-          width: 56px;
-          height: 39px;
-          margin-bottom: 10px;
+        .main-fourth-secondRow{
+          display: flex;
         }
-        .icon-youtube{
-          width: 56px;
-          height: 39px;
-        }
-        .icon-gameBoy{
-          width: 56px;
-          height: 39px;
-        }
-        .icon-music{
-          width: 56px;
-          height: 39px;
-        }
+        a{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-decoration: none;
+          color: white;
+          width: 177px;
+          height: 177px;
+          p{
+            font-family: 'Gotham Bold', sans-serif;
+            font-size: 14px;
+          }
+          .icon-antenna{
+            width: 56px;
+            height: 39px;
+            margin-bottom: 10px;
+          }
+          .icon-youtube{
+            width: 56px;
+            height: 39px;
+          }
+          .icon-gameBoy{
+            width: 56px;
+            height: 39px;
+          }
+          .icon-music{
+            width: 56px;
+            height: 39px;
+          }
 
+        }
+        .green{
+          background-color: #96BF4D;
+        }
+        .darkPurple{
+          background-color: #9E1F63;
+        }
+        .orange{
+          background-color: #F05A28;
+        }
+        .yellow{
+          background-color: #D6DE23;
+        }
+        .salad{
+          background-color: #29B473;
+        }
+        .blue{
+          background-color: #1B75BB;
+        }
+        .purple{
+          background-color: #EC297B;
+        }
+        .violet{
+          background-color: #652D90;
+        }
+        .blackberry{
+          background-color: #262261;
+        }
+        .lightBlue{
+          background-color: #00A69C;
+        }
       }
-      .green{
-        background-color: #96BF4D;
-      }
-      .darkPurple{
-        background-color: #9E1F63;
-      }
-      .orange{
-        background-color: #F05A28;
-      }
-      .yellow{
-        background-color: #D6DE23;
-      }
-      .salad{
-        background-color: #29B473;
-      }
-      .blue{
-        background-color: #1B75BB;
-      }
-      .purple{
-        background-color: #EC297B;
-      }
-      .violet{
-        background-color: #652D90;
-      }
-      .blackberry{
-        background-color: #262261;
-      }
-      .lightBlue{
-        background-color: #00A69C;
-      }
+
 
     }
+    .main-fourth-info-laser{
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      width: 50%;
+      margin: 0 auto;
+      padding-top: 76px;
+      h1{
+        font-family: 'Gotham Light', sans-serif;
+        font-weight: lighter;
+        font-size: 20px;
+        color: white;
+      }
+    }
+    .main-fourth-info-hours{
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      width: 60%;
+      margin: 0 auto;
+      padding-top: 70px;
+      .number-text{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
+        img{
+          height: 140px;
+        }
+        h1{
+          font-family: 'Gotham Bold', sans-serif;
+          font-weight: lighter;
+          font-size:21px;
+          color: white;
+          padding-top: 30px;
+        }
+      }
+    }
+    .main-fourth-info-films{
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      width: 60%;
+      margin: 0 auto;
+      padding-top: 100px;
+      img{
+        height: 140px;
+      }
+      h1{
+        font-family: 'Gotham Bold', sans-serif;
+        font-weight: lighter;
+        font-size:21px;
+        color: white;
+        padding-top: 30px;
+        padding-bottom: 20px;
+      }
+      p{
+        font-family: 'Gotham Light', sans-serif;
+        font-weight: lighter;
+        font-size:20px;
+        color: white;
+      }
+    }
+    .button-fourth-cineBeam{
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      padding-right: 75px;
+    }
   }
+}
+@media only screen and (max-width: 480px){
+  .container-cineBeam{
+    .main-fourth{
+      background-image: url("../img/bg5-mob.png") ;
+      background-repeat: no-repeat;
+      background-size:100% 100%;
+      background-position: center;
+      padding-left: 25px;
+      padding-right: 25px;
+      .main-colorful-links{
+        display: none;
+      }
+      .main-fourth-info-laser{
+        width: 100%;
+        padding: 23px 0 15px 0;
+        h1{
+          text-align: right;
+          font-size: 16px;
+        }
+      }
+      .main-fourth-info-films{
+        width: 100%;
+        padding: 0 0 44px 0;
+        img{
+          width: 161px;
+          height: 44px;
+        }
+        h1{
+          font-size: 14px;
+          padding: 8px 0 12px 0;
+        }
+        p{
+          width: 100%;
+          font-size: 8px;
+          line-height: 13px;
+          padding: 0;
+        }
+      }
+      .main-fourth-info-hours{
+        width: 100%;
+        padding: 0 0 80px 0;
+        .number-text{
+          img{
+            width: 161px;
+            height: 44px;
+          }
+
+          h1{
+            font-size: 14px;
+            line-height: 30px;
+            padding: 10px 0 0 0;
+          }
+        }
+
+      }
+      .button-fourth-cineBeam{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0 13px 0;
+      }
+    }
+
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+  .container-cineBeam{
+    .main-fourth{
+      background-image: url("../img/bg5-pad.png") ;
+      background-repeat: no-repeat;
+      background-size:100% 100%;
+      background-position: center;
+      padding-top: 248px;
+      padding-bottom: 68px;
+      .main-colorful-links{
+        width: 648px;
+        margin: -375px auto 0 auto;
+        transform:skewX(-10deg);
+        .river{
+          display: block;
+
+          img{
+            width: 177px;
+            height: 259px;
+          }
+        }
+        .main-fourth-links{
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          a{
+            width: 100px;
+            height: 129px;
+          }
+        }
+
+
+
+      }
+      .main-fourth-info-laser{
+        width: 100%;
+        padding: 123px 0 15px 0;
+        text-align: left;
+        h1{
+          display: inline-block;
+          width: 40%;
+          font-size: 16px;
+        }
+      }
+      .main-fourth-info-films{
+        width: 83%;
+        padding: 110px 0 150px 0;
+        img{
+          width: 304px;
+          height: 84px;
+        }
+        h1{
+          font-size: 21px;
+          padding: 8px 0 12px 0;
+        }
+        p{
+          width:77%;
+          font-size: 16px;
+          line-height: 25px;
+          padding: 0;
+        }
+      }
+      .main-fourth-info-hours{
+        width: 90%;
+        padding: 70px 20px 0 0;
+        .number-text{
+          img{
+            width: 304px;
+            height: 84px;
+          }
+
+          h1{
+            font-size: 21px;
+            line-height: 30px;
+            padding: 10px 0 0 0;
+          }
+        }
+
+      }
+      .button-fourth-cineBeam{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0 0 13px 60px;
+        a{
+          padding-left: 50px;
+          padding-right: 50px;
+        }
+      }
+    }
+
+  }
+
 }

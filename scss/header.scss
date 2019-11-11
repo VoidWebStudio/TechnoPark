@@ -16,7 +16,7 @@
     background-image: url("../img/bg-1.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     .header-cineBeam{
       display: flex;
       flex-basis: 50%;
@@ -28,7 +28,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-bottom: 50px;
         h1{
           font-family: 'Gotham Bold', sans-serif;
           font-size: 60px;
@@ -157,15 +156,109 @@
   font-family: 'Gotham Light';
   font-style: normal;
   font-weight: normal;
-  src: local('LG Smart'),local('LG Smart'), url('../fonts/Gotham-Light.otf') format('otf'),
-  local('LG Smart'), url('../fonts/GothamLight.ttf') format('ttf');
+  src: local('Gotham Light'),local('Gotham Light'), url('../fonts/Gotham-Light.otf') format('otf'),
+  local('Gotham Light'), url('../fonts/GothamLight.ttf') format('ttf');
 
 }
 @font-face {
   font-family: 'Gotham Bold';
   font-style: normal;
   font-weight: bold;
-  src: local('LG Smart'),local('LG Smart'), url('../fonts/Gotham-Bold.otf') format('otf'),
-  local('LG Smart'), url('../fonts/GothamBold.ttf') format('ttf');
+  src: local('LG Smart'),local('Gotham Bold'), url('../fonts/Gotham-Bold.otf') format('otf'),
+  local('Gotham Bold'), url('../fonts/GothamBold.ttf') format('ttf');
+
+}
+
+@media only screen and (max-width: 480px) {
+  .container-cineBeam{
+    .container-header-cineBeam{
+      .main-header-cineBeam{
+        background-image: url("../img/bg1-mob.png") ;
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        background-position: center;
+        .header-cineBeam{
+          flex-basis: 100%;
+          .header-cineBeam-title{
+            padding-bottom: 30px;
+            h1{
+              padding: 0;
+              font-size:20px;
+            }
+          }
+          .header-cineBeam-info{
+            padding-bottom: 255px;
+            img{
+              height:53px;
+              width: 56px;
+              padding: 0;
+            }
+            p{
+              padding-top: 0;
+              padding-left: 16px;
+              font-size: 14px;
+              line-height:25px;
+            }
+          }
+        }
+        .header-cineBeam-scroll{
+          display: none;
+        }
+
+      }
+    }
+    .button{
+      padding: 0 0 20px 0;
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+  .container-cineBeam{
+    .container-header-cineBeam{
+      .main-header-cineBeam{
+        background-image: url("../img/bg1-pad.png") ;
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        background-position: center;
+        .header-cineBeam{
+          flex-basis: 100%;
+          .header-cineBeam-title{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 80px;
+            h1{
+              padding: 0;
+              font-size:60px;
+            }
+          }
+          .header-cineBeam-info{
+            padding-bottom: 535px;
+            img{
+              height:114px;
+              width: 120px;
+              padding: 0;
+            }
+            p{
+              padding-top: 0;
+              padding-left: 70px;
+              padding-right: 70px;
+              font-size: 27px;
+              line-height:35px;
+            }
+          }
+        }
+        .header-cineBeam-scroll{
+          display: none;
+        }
+
+      }
+    }
+    .button{
+      display: flex;
+      justify-content: flex-start;
+      padding: 0 0 20px 170px;
+    }
+  }
 
 }
