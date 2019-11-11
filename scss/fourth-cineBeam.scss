@@ -1,3 +1,4 @@
+@import "fonts";
 .container-fourth-cineBeam{
   width: 100%;
   height: 100%;
@@ -8,8 +9,8 @@
     height: 100%;
     background-image: url("../img/bg-5.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: 100% 100%;
+    background-position: 100% 100%;
     .main-colorful-links{
       display: flex;
       width: 100%;
@@ -20,6 +21,8 @@
       .main-fourth-links{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width:60%;
         margin-left: auto;
         margin-right: auto;
@@ -38,6 +41,7 @@
           color: white;
           width: 177px;
           height: 177px;
+          transition: all .5s;
           p{
             font-family: 'Gotham Bold', sans-serif;
             font-size: 14px;
@@ -60,6 +64,10 @@
             height: 39px;
           }
 
+        }
+        a:hover{
+          transform: scale(1.2);
+          box-shadow: 0 0 11px rgba(33,33,33,.2);
         }
         .green{
           background-color: #96BF4D;
@@ -99,9 +107,9 @@
       display: flex;
       justify-content: flex-end;
       align-items: flex-end;
-      width: 50%;
       margin: 0 auto;
-      padding-top: 76px;
+      padding-top: 5%;
+      padding-left:30%;
       h1{
         font-family: 'Gotham Light', sans-serif;
         font-weight: lighter;
@@ -113,9 +121,9 @@
       display: flex;
       justify-content: flex-end;
       align-items: flex-end;
-      width: 60%;
       margin: 0 auto;
-      padding-top: 70px;
+      padding-top: 10%;
+      padding-left: 35%;
       .number-text{
         display: flex;
         justify-content: flex-end;
@@ -137,9 +145,9 @@
       display: flex;
       justify-content: flex-start;
       align-items: flex-start;
-      width: 60%;
       margin: 0 auto;
-      padding-top: 100px;
+      padding-top: 5%;
+      padding-right: 35%;
       img{
         height: 140px;
       }
@@ -163,10 +171,11 @@
       justify-content: flex-end;
       align-items: flex-end;
       padding-right: 75px;
+      padding-top: 20%;
     }
   }
 }
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 767px){
   .container-cineBeam{
     .main-fourth{
       background-image: url("../img/bg5-mob.png") ;
@@ -183,7 +192,7 @@
         padding: 23px 0 15px 0;
         h1{
           text-align: right;
-          font-size: 16px;
+          font-size: 10px;
         }
       }
       .main-fourth-info-films{
@@ -195,7 +204,7 @@
         }
         h1{
           font-size: 14px;
-          padding: 8px 0 12px 0;
+          padding: 2% 0 4% 0;
         }
         p{
           width: 100%;
@@ -206,7 +215,7 @@
       }
       .main-fourth-info-hours{
         width: 100%;
-        padding: 0 0 80px 0;
+        padding: 0 0 15% 0;
         .number-text{
           img{
             width: 161px;
@@ -231,18 +240,18 @@
 
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1024px){
+@media only screen and (min-width: 768px) and (max-width: 1200px){
   .container-cineBeam{
     .main-fourth{
       background-image: url("../img/bg5-pad.png") ;
       background-repeat: no-repeat;
       background-size:100% 100%;
       background-position: center;
-      padding-top: 248px;
+      padding-top: 32%;
       padding-bottom: 68px;
       .main-colorful-links{
         width: 648px;
-        margin: -375px auto 0 auto;
+        margin: -45% auto 0 auto;
         transform:skewX(-10deg);
         .river{
           display: block;
@@ -267,7 +276,7 @@
       }
       .main-fourth-info-laser{
         width: 100%;
-        padding: 123px 0 15px 0;
+        padding: 15% 0 3% 0;
         text-align: left;
         h1{
           display: inline-block;
@@ -277,7 +286,7 @@
       }
       .main-fourth-info-films{
         width: 83%;
-        padding: 110px 0 150px 0;
+        padding:12% 0 20% 0;
         img{
           width: 304px;
           height: 84px;
@@ -295,7 +304,7 @@
       }
       .main-fourth-info-hours{
         width: 90%;
-        padding: 70px 20px 0 0;
+        padding: 10% 3% 0 0;
         .number-text{
           img{
             width: 304px;

@@ -1,30 +1,31 @@
+@import "fonts";
 .container-second-cineBeam{
   width: 100%;
   height: 100%;
   .main-second-cineBeam{
     background-image: url("../img/bg-3.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: 100% 100%;
+    background-position: 100% 100%;
     .number-second-cineBeam{
       display: flex;
       justify-content: flex-end;
       align-items: flex-end;
-      width: 90%;
-      padding-top: 400px;
-      padding-right:80px;
+      width: 80%;
+      padding-top: 10%;
+      padding-right:2%;
 
     }
     .title-second-cineBeam{
       display: flex;
-      justify-content: flex-start;
-      align-items: flex-start;
+      justify-content: center;
+      align-items: center;
+      width: 60%;
       flex-direction: column;
       text-align: center;
-      padding-top: 650px;
-      padding-left: 300px;
+      padding-top: 15%;
       h1{
-        font-family: 'Gotham Bold', sans-serif;
+        font-family: 'gothambold', sans-serif;
         font-size: 34px;
         line-height: 45px;
         color: white;
@@ -39,12 +40,12 @@
       display: flex;
       justify-content: flex-end;
       align-items: flex-end;
-      padding-top: 500px;
-      padding-right: 78px;
+      padding-top: 7%;
+      padding-right: 4%;
     }
   }
 }
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 767px){
   .container-cineBeam{
     .main-second-cineBeam {
       background-image: url("../img/bg3-mob.png");
@@ -61,10 +62,11 @@
       .title-second-cineBeam{
         padding: 165px 0 89px 0;
         h1{
-          font-family: 'Gotham Bold', sans-serif;
+          font-family: 'gothambold', sans-serif;
           font-size: 15px;
           line-height: 20px;
           span{
+            font-family: 'gothamthin',sans-serif;
             font-size: 34px;
           }
         }
@@ -79,7 +81,7 @@
 
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1024px){
+@media only screen and (min-width: 768px) and (max-width: 1200px){
   .container-cineBeam{
     .main-second-cineBeam {
       background-image: url("../img/bg3-pad.png") ;
@@ -87,16 +89,17 @@
       background-size: 100% 100%;
       background-position: center;
       .number-second-cineBeam{
-        padding: 145px 0 0 0;
+        width: 100%;
+        padding: 13% 10% 0 0;
         img{
           width: 143px;
           height: 113px;
         }
       }
       .title-second-cineBeam{
-        padding: 369px 0 89px 60px;
+        padding: 40% 0 7% 5%;
         h1{
-          font-family: 'Gotham Bold', sans-serif;
+          font-family: 'gothambold', sans-serif;
           font-size: 35px;
           line-height: 45px;
           span{
@@ -108,7 +111,7 @@
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
-        padding: 0 0 70px 148px;
+        padding: 0 0 10% 20%;
       }
     }
 
