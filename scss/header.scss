@@ -160,6 +160,7 @@
       padding-top: 5px;
     }
     p{
+      font-family: 'LG Smart',sans-serif;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -170,7 +171,16 @@
   }
 }
 
+@font-face {
+  font-family: 'LG Smart';
+  font-style: normal;
+  font-weight: normal;
+  src: local('LG Smart'), url('../fonts/LGSmartRegular__W.woff') format('woff'),
+  local('LG Smart'), url('../fonts/LG Smart Regular.otf') format('otf'),
+  local('LG Smart'), url('../fonts/LGSmartRegular__W.ttf') format('ttf'),
+  local('LG Smart'), url('../fonts/LGSmartRegular__W.eot') format('eot');
 
+}
 @media only screen and (max-width: 767px) {
   .container-cineBeam{
     .container-header-cineBeam{

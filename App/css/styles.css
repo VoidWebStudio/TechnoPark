@@ -80,7 +80,7 @@
       .container-first-cineBeam .main-first .main-first-button .icon-btn {
         stroke: black; }
       .container-first-cineBeam .main-first .main-first-button p {
-        font-family: 'gothambold', sans-serif;
+        font-family: 'LG Smart',sans-serif;
         color: black; }
 
 @media only screen and (max-width: 767px) {
@@ -768,6 +768,7 @@
       fill: white;
       padding-top: 5px; }
     .button a p {
+      font-family: 'LG Smart',sans-serif;
       display: -webkit-box;
       display: -webkit-flex;
       display: flex;
@@ -780,6 +781,12 @@
       text-align: center;
       color: white;
       font-size: 12px; }
+
+@font-face {
+  font-family: 'LG Smart';
+  font-style: normal;
+  font-weight: normal;
+  src: local("LG Smart"), url("../fonts/LGSmartRegular__W.woff") format("woff"), local("LG Smart"), url("../fonts/LG Smart Regular.otf") format("otf"), local("LG Smart"), url("../fonts/LGSmartRegular__W.ttf") format("ttf"), local("LG Smart"), url("../fonts/LGSmartRegular__W.eot") format("eot"); }
 
 @media only screen and (max-width: 767px) {
   .container-cineBeam .container-header-cineBeam .main-header-cineBeam {
