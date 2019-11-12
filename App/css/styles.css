@@ -80,6 +80,7 @@
       .container-first-cineBeam .main-first .main-first-button .icon-btn {
         stroke: black; }
       .container-first-cineBeam .main-first .main-first-button p {
+        font-family: 'gothambold', sans-serif;
         color: black; }
 
 @media only screen and (max-width: 767px) {
@@ -97,7 +98,13 @@
         font-size: 14px;
         line-height: 15px; }
     .container-cineBeam .main-first .main-first-button {
-      padding: 0 0 13px 0; } }
+      padding: 0 0 13px 0; }
+      .container-cineBeam .main-first .main-first-button a {
+        border-color: white !important; }
+      .container-cineBeam .main-first .main-first-button .icon-btn {
+        stroke: white !important; }
+      .container-cineBeam .main-first .main-first-button p {
+        color: white !important; } }
 
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
   .container-cineBeam .main-first {
@@ -993,7 +1000,7 @@
     .container-cineBeam .main-second-cineBeam .title-second-cineBeam {
       padding: 40% 0 7% 5%; }
       .container-cineBeam .main-second-cineBeam .title-second-cineBeam h1 {
-        font-family: 'gothambold', sans-serif;
+        font-family: 'LG Smart', sans-serif;
         font-size: 35px;
         line-height: 45px; }
         .container-cineBeam .main-second-cineBeam .title-second-cineBeam h1 span {
@@ -1009,6 +1016,12 @@
       -webkit-align-items: flex-start;
       align-items: flex-start;
       padding: 0 0 10% 20%; } }
+
+@font-face {
+  font-family: 'LG Smart';
+  font-style: normal;
+  font-weight: normal;
+  src: local("LG Smart"), url("../fonts/LGSmartRegular__W.woff") format("woff"), local("LG Smart"), url("../fonts/LG Smart Regular.otf") format("otf"), local("LG Smart"), url("../fonts/LGSmartRegular__W.ttf") format("ttf"), local("LG Smart"), url("../fonts/LGSmartRegular__W.eot") format("eot"); }
 
 @font-face {
   font-family: "Gotham Thin";

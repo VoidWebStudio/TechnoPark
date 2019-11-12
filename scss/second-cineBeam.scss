@@ -99,7 +99,7 @@
       .title-second-cineBeam{
         padding: 40% 0 7% 5%;
         h1{
-          font-family: 'gothambold', sans-serif;
+          font-family: 'LG Smart', sans-serif;
           font-size: 35px;
           line-height: 45px;
           span{
@@ -116,4 +116,14 @@
     }
 
   }
+}
+@font-face {
+  font-family: 'LG Smart';
+  font-style: normal;
+  font-weight: normal;
+  src: local('LG Smart'), url('../fonts/LGSmartRegular__W.woff') format('woff'),
+  local('LG Smart'), url('../fonts/LG Smart Regular.otf') format('otf'),
+  local('LG Smart'), url('../fonts/LGSmartRegular__W.ttf') format('ttf'),
+  local('LG Smart'), url('../fonts/LGSmartRegular__W.eot') format('eot');
+
 }
